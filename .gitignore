@@ -1,0 +1,5 @@
+*.hex
+*.lst
+*.cim
+*.f08
+scan/scan_koi8-r.asm

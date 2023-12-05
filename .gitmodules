@@ -1,0 +1,3 @@
+[submodule "gwmon-80"]
+	path = gwmon-80
+	url = https://github.com/bryaq/gwmon-80.git
