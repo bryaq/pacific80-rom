@@ -37,7 +37,7 @@ end
 
 ## MEMORY MAP
 
-256K memory space is divided to 16 16KB-pages. 64KB CPU address space is divided to 4 16KB-banks. Each bank can be mapped to any page. After reset all banks are mapped to page 0. Video memory starts at 1810h offset in each video page/plane. Column 0 at 1810h-18ffh, column 1 at 1910h-19ffh, and so on, total 40 columns. Plane 0 color is navy blue, plane 1 color is sand, both planes together give white.
+256K memory space is divided to 16 16KB-pages. 64KB CPU address space is divided to 4 16KB-banks. Each bank can be mapped to any page. After reset all banks are mapped to page f. Video memory starts at 1810h offset in each video page/plane. Column 0 at 1810h-18ffh, column 1 at 1910h-19ffh, and so on, total 40 columns. Plane 0 color is navy blue, plane 1 color is sand, both planes together give white.
 
 |Page|Type|Notes                            |
 |----|----|---------------------------------|
